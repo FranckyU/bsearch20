@@ -1,8 +1,10 @@
 # Bsearch20
 
-This is a fork of the excelent [Ruby/Bsearch](https://rubygems.org/gems/bsearch) gem originally written by Satoru Takabayashi.
+This is a fork of the excelent [Ruby/Bsearch](https://rubygems.org/gems/bsearch) gem originally written by Satoru Takabayashi (last version at 1.5.0).
 
 The API is described [here](http://0xcc.net/ruby-bsearch/)
+
+Released on rubygems as 1.6.0 [https://rubygems.org/gems/bsearch20](https://rubygems.org/gems/bsearch20)
 
 Most of the changes are syntaxes, the original gem was published in 2001, almost 20 years ago!
 
