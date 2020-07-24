@@ -33,7 +33,7 @@
 #  => 2...2
 $LOAD_PATH << File.dirname(File.expand_path(__FILE__))
 
-require "bsearch20/version"
+require_relative "bsearch20/version"
 
 class Array
   # 
