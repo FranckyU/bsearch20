@@ -1,8 +1,10 @@
 # Bsearch20
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/bsearch20`. To experiment with that code, run `bin/console` for an interactive prompt.
+This is a fork of the excelent [Ruby/Bsearch](https://rubygems.org/gems/bsearch) gem originally written by Satoru Takabayashi.
 
-TODO: Delete this and the text above, and describe your gem
+The API is described [here](http://0xcc.net/ruby-bsearch/)
+
+Most of the changes are syntaxes, the original gem was published in 2001, almost 20 years ago!
 
 ## Installation
 
