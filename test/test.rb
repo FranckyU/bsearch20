@@ -2,7 +2,7 @@
 # Just for testing.
 #
 
-require './../lib/bsearch'
+require_relative '../lib/bsearch20'
 
 def prefix_imatch (key, pattern)
   len = pattern.length
@@ -32,7 +32,6 @@ def lookup (dict, pattern)
   end
 end
 
-
 def check_boundaries (dict)
   return if dict.empty?
   l = 0
@@ -43,12 +42,17 @@ def check_boundaries (dict)
   raise unless (u...u) ==  dict.bsearch_range(u...u) {|x| x <=> dict.last}
 end
 
-
 pattern = ARGV.shift
 dict = Array.new
-while line = gets
-  line.chomp!
-  dict.push line
+
+loop do
+  line = STDIN.gets&.chomp
+
+  if line
+    dict.push line
+  else
+    break
+  end
 end
 
 check_boundaries(dict)
