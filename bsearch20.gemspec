@@ -7,10 +7,10 @@ Gem::Specification.new do |spec|
   spec.email         = ["kifer.mada@gmail.com"]
 
   spec.summary       = %q{Ruby/Bsearch: a binary search library for Ruby}
-  spec.description   = %q{This is an upgraded version of the excelent bsearch gem by Satoru Takabayashi. Tailored for Ruby 2.7+ mostly syntax changes.}
+  spec.description   = %q{This is an improved version of the excelent bsearch gem by Satoru Takabayashi, works with Ruby 3.x}
   spec.homepage      = "https://github.com/FranckyU/bsearch20"
   spec.license       = "MIT"
-  spec.required_ruby_version = Gem::Requirement.new(">= 2.7.0")
+  spec.required_ruby_version = Gem::Requirement.new(">= 3.2.2")
 
   # spec.metadata["allowed_push_host"] = ""
 
